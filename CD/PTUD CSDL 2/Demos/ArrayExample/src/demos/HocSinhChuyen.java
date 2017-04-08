@@ -11,11 +11,10 @@ package demos;
  * @author home
  */
 public class HocSinhChuyen extends HocSinh{
-   
-    public HocSinhChuyen(){
-        hoTen = "Hoc sinh chuyen";
-        diemTrungBinh = 8.5f;
+
+    @Override
+    public void xuatHoTen() {
+        super.xuatHoTen();
+        System.out.printf("ho ten: %s",hoTen.toUpperCase());        
     }
-            
-    
 }

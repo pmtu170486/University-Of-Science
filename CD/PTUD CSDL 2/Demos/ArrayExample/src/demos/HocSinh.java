@@ -9,16 +9,16 @@ package demos;
  *
  * @author home
  */
-public final class HocSinh {
+public class HocSinh {
 
     protected String hoTen;
     protected float diemTrungBinh;
-    
-    protected void xetTotNghiep(){
-        System.out.println("Đạt hay không đạt");
-    }
-            
+               
     public HocSinh() {
 
+    }
+    
+    public final void xuatHoTen(){
+        System.out.printf("Ho ten: %s",hoTen);
     }
 }

@@ -10,11 +10,6 @@ package demos;
  *
  * @author home
  */
-public class App {
+public class VNTime {
     
-    public static void main(String[] args) {
-       HocSinhChuyen hsc=new HocSinhChuyen();
-       hsc.hoTen = "nguyen van a";
-       hsc.xuatHoTen();
-    }
 }
