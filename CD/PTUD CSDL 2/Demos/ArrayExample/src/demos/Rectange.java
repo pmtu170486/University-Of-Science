@@ -14,8 +14,6 @@ public class Rectange extends Shape{
 
     @Override
     public float dientich() {
-        
+        return width * height;
     }
-    
-    
 }

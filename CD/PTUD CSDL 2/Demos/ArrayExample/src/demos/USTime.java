@@ -10,6 +10,16 @@ package demos;
  *
  * @author home
  */
-public class USTime {
-    
+public class USTime implements TimeClient{
+
+    @Override
+    public void setTime(int hour, int minute, int second) {
+       
+    }
+    @Override
+    public void increaseHour(int hour) {
+    }
+    @Override
+    public void decreaseHour(int hour) {
+    }
 }

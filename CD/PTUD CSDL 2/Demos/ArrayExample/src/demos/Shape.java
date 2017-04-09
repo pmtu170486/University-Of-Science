@@ -13,20 +13,7 @@ package demos;
 public abstract class Shape {
     protected float width;
     protected float height;
-    public float getWidth() {
-        return width;
-    }
-    public void setWidth(float width) {
-        this.width = width;
-    }
-
-    public float getHeight() {
-        return height;
-    }
-
-    public void setHeight(float height) {
-        this.height = height;
-    }
+    
     public abstract float dientich();
     
     public void xuat(){
