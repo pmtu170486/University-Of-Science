@@ -28,6 +28,7 @@ public class JDBCDemos {
     public Connection getConnection() {
         Connection conn = null;
         try {
+            Class.forName("com.mysql.jdbc.Driver");
             Properties connectionProps = new Properties();
             connectionProps.put("user", "root");
             connectionProps.put("password", "");
@@ -127,6 +128,7 @@ public class JDBCDemos {
         }
         return result;
     }
+
     public int update(NhanVien nv) {
         Connection conn = getConnection();
         int result = 0;
@@ -155,15 +157,14 @@ public class JDBCDemos {
         }
         return result;
     }
+
     public static void main(String[] args) {
-        JDBCDemos demos = new JDBCDemos();
-        int manv = 1;
-        int result = demos.delete(manv);
-        if (result > 0) {
-            System.out.printf("Xoa thanh cong, co %d dong da duoc xoa", result);
-        } else {
-            System.out.printf("Xoa that bai, khong co dong nao duoc xoa");
+        JDBCDemos demo = new JDBCDemos();
+        List<NhanVien> list = demo.getAll();
+        for (NhanVien nv : list) {
+            System.out.printf("%d \t %s \t %s %n", nv.getId(), nv.getName(), nv.getAddress());
         }
+
     }
 
 }
