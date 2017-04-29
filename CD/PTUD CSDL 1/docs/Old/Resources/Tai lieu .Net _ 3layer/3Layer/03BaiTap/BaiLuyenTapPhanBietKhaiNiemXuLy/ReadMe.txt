@@ -1,0 +1,1 @@
+Chep file CSDLPhanSo.xml vao thu muc goc o dia C (C:\CSDLPhanSo.xml)

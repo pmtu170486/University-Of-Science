@@ -1,0 +1,49 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-2.1.4.intellisense.js"></script>
+    <script src="~/Scripts/jquery-2.1.4.js"></script>
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+
+    <script>
+        function getdata() {
+            $.ajax(
+                {
+                    url: "./home/getdata",
+                    type: "GET",
+                    success: function (data) {
+                        var str = "<table border=1 width='50%'>";
+                        $.each(data, function (key, val) {
+                            str += "<tr>";
+                            str += "<td>" + val.id + "</td>";
+                            str += "<td>" + val.name + "</td>";
+                            str += "<td>" + val.address + "</td>";
+                            str += "</tr>";
+
+                        });
+                        str += "</table>";
+                        $("#result").html(str);
+                    }
+                });
+        }
+
+    </script>
+
+</head>
+<body>
+    <div>
+
+        <button onclick="getdata()">Get Data</button>
+        <div id="result">
+
+        </div>
+    </div>
+</body>
+</html>

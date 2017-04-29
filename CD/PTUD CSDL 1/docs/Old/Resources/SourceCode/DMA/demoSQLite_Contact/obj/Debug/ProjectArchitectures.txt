@@ -1,0 +1,1 @@
+D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\demoSQLite_Contact\demoSQLite_Contact.csproj;neutral

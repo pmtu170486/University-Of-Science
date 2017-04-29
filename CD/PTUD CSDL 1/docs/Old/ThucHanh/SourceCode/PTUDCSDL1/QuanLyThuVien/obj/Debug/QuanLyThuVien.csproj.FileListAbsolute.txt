@@ -1,0 +1,10 @@
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.Form1.resources
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUI.NhanVienGUI.resources

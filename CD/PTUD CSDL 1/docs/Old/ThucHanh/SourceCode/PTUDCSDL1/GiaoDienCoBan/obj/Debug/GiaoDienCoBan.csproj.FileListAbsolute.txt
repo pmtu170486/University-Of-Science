@@ -1,0 +1,9 @@
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\bin\Debug\GiaoDienCoBan.exe.config
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\bin\Debug\GiaoDienCoBan.exe
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\bin\Debug\GiaoDienCoBan.pdb
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.csprojResolveAssemblyReference.cache
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.Properties.Resources.resources
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.csproj.GenerateResource.Cache
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.exe
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.pdb
+D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\GiaoDienCoBan\obj\Debug\GiaoDienCoBan.frmMain.resources

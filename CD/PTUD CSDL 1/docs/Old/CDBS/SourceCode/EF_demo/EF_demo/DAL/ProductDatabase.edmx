@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="data.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="dataStoreContainer">
+          <EntitySet Name="Products" EntityType="data.Store.Products" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProductType" EntityType="data.Store.ProductType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TaiKhoan" EntityType="data.Store.TaiKhoan" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Products_ProductType" Association="data.Store.FK_Products_ProductType">
+            <End Role="ProductType" EntitySet="ProductType" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="price" Type="money" />
+          <Property Name="quantity" Type="varchar" MaxLength="50" />
+          <Property Name="supply" Type="varchar" MaxLength="50" />
+          <Property Name="type" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductType">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TaiKhoan">
+          <Key>
+            <PropertyRef Name="matk" />
+          </Key>
+          <Property Name="matk" Type="int" Nullable="false" />
+          <Property Name="ten" Type="varchar" MaxLength="50" />
+          <Property Name="sodu" Type="money" />
+          <Property Name="cmnd" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Products_ProductType">
+          <End Role="ProductType" Type="data.Store.ProductType" Multiplicity="0..1" />
+          <End Role="Products" Type="data.Store.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductType">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="type" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="data" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="demoConnection" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Products" EntityType="data.Product" />
+          <EntitySet Name="ProductTypes" EntityType="data.ProductType" />
+          <AssociationSet Name="FK_Products_ProductType" Association="data.FK_Products_ProductType">
+            <End Role="ProductType" EntitySet="ProductTypes" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+          <EntitySet Name="TaiKhoans" EntityType="data.TaiKhoan" />
+        </EntityContainer>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="quantity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="supply" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Type="Int32" Name="type" />
+          <NavigationProperty Name="ProductType" Relationship="data.FK_Products_ProductType" FromRole="Product" ToRole="ProductType" />
+        </EntityType>
+        <EntityType Name="ProductType">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="String" Name="name" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Products" Relationship="data.FK_Products_ProductType" FromRole="ProductType" ToRole="Product" />
+        </EntityType>
+        <Association Name="FK_Products_ProductType">
+          <End Type="data.ProductType" Role="ProductType" Multiplicity="0..1" />
+          <End Type="data.Product" Role="Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductType">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="type" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TaiKhoan">
+          <Key>
+            <PropertyRef Name="matk" />
+          </Key>
+          <Property Type="Int32" Name="matk" Nullable="false" />
+          <Property Type="String" Name="ten" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Decimal" Name="sodu" Precision="19" Scale="4" />
+          <Property Type="String" Name="cmnd" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dataStoreContainer" CdmEntityContainer="demoConnection">
+          <EntitySetMapping Name="Products"><EntityTypeMapping TypeName="data.Product"><MappingFragment StoreEntitySet="Products">
+            <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="id" ColumnName="id" />
+            <ScalarProperty Name="name" ColumnName="name" />
+            <ScalarProperty Name="price" ColumnName="price" />
+            <ScalarProperty Name="quantity" ColumnName="quantity" />
+            <ScalarProperty Name="supply" ColumnName="supply" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ProductTypes">
+            <EntityTypeMapping TypeName="data.ProductType">
+              <MappingFragment StoreEntitySet="ProductType">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TaiKhoans">
+            <EntityTypeMapping TypeName="data.TaiKhoan">
+              <MappingFragment StoreEntitySet="TaiKhoan">
+                <ScalarProperty Name="cmnd" ColumnName="cmnd" />
+                <ScalarProperty Name="sodu" ColumnName="sodu" />
+                <ScalarProperty Name="ten" ColumnName="ten" />
+                <ScalarProperty Name="matk" ColumnName="matk" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="ProductDatabase">
+        <EntityTypeShape EntityType="data.Product" Width="1.5" PointX="0.75" PointY="0.75" Height="1.9802864583333331" IsExpanded="true" />
+        <EntityTypeShape EntityType="data.ProductType" Width="1.5" PointX="0.75" PointY="4.125" Height="1.5956835937499996" />
+        <AssociationConnector Association="data.FK_Products_ProductType" >
+          <ConnectorPoint PointX="1.5" PointY="4.125" />
+          <ConnectorPoint PointX="1.5" PointY="3.114889322916667" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="data.TaiKhoan" Width="1.5" PointX="4.875" PointY="1.375" Height="1.7879850260416665" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

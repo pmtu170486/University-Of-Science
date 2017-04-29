@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PMTU-LAPTOP</Machine>
+    <WindowsUser>pmtu</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f11ebb68-1153-4f84-b302-d35b343c7a6d</PackageIdentityName>
+    <IntermediateOutputPath>D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\HelloWorld.exe">
+      <PackagePath>HelloWorld.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\HelloWorld.xr.xml">
+      <PackagePath>HelloWorld.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\University of Science\Developing Application DB 1\Resources\SourceCode\DMA\HelloWorld\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
