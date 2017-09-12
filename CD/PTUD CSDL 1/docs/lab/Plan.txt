@@ -1,0 +1,78 @@
+Kế hoạch thực hành môn PTUD CSDL
+
+Tuần 01: Lập trình cơ bản
+	Sinh viên có khả năng:
+		>> Tạo project, class, build, run trong VS Studio
+		>> Sử dụng ngôn ngữ C# viết một chương trình đơn giản
+		>> Sử dụng tính năng debug chương trình
+		>> Bài tập đơn giản
+			>> Khai báo biến, kiểu
+			>> Cấu trúc điều kiện
+			>> Vòng lặp
+Tuần 02: Hướng đối tượng
+	Sinh viên có khả năng:
+		>> Tạo class, interface
+		>> Sử dụng tính chất kế thừa, override, overload
+		>> Bài tập đơn giản
+			>> Class, interface
+			>> Override, Overload
+			>> Viết code có khả năng dùng lại
+Tuần 03:
+	Sinh viên có khả năng:
+		>> Tạo project WinForm cơ bản
+		>> Trình bày workflow chương trình
+		>> Debug
+		>> Sử dụng control cơ bản 
+			>> Label
+			>> Textbox
+			>> Button
+			>> Combobox
+			>> Radio
+			>> Group
+			>> Panel
+			>> TextArea
+		>> Sử dụng sự kiện cơ bản	
+			>> Click
+			>> Load
+Tuần 04:
+	Sinh viên có khả năng:
+		>> Sử dụng control nâng cao
+			>> DataGridView
+			>> Picture
+			>> SaveFile
+			>> Open File
+			>> Menu
+			>> Listbox
+		>> Các sự kiện
+			>> Cell Click
+			>> Data grid load
+Tuần 05: Thi giữa kì
+Tuần 06:
+	Sinh viên có khả năng:
+		>> Lập trình với thư viện ADO.NET
+		>> Kết nối ứng dụng với CSDL
+		>> Viết câu truy vấn load dữ liệu từ ứng dụng
+		>> Viết câu truy vấn thêm dữ liệu từ ứng dụng
+Tuần 07:
+	Sinh viên có khả năng:
+		>> Viết câu truy vấn cập nhật dữ liệu từ ứng dụng
+		>> Viết câu truy vấn xóa dữ liệu từ ứng dụng
+		>> Viết câu truy vấn gọi store procedure từ ứng dụng
+Tuần 08:
+	Sinh viên làm đồ án
+Tuần 09: 
+	Sinh viên làm đồ án
+Tuần 10: 
+	Sinh viên làm đồ án
+	
+		
+		
+		
+		
+		
+			
+			
+			
+			
+			
+			
