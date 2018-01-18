@@ -1,6 +1,0 @@
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\bin\Debug\myWCF.dll.config
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\bin\Debug\myWCF.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\bin\Debug\myWCF.pdb
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\obj\Debug\myWCF.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\obj\Debug\myWCF.pdb
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\myWCF\obj\Debug\myWCF.csprojResolveAssemblyReference.cache

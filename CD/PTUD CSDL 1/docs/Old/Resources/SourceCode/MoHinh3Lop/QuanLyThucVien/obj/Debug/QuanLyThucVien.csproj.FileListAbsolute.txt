@@ -1,9 +1,0 @@
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\bin\Debug\QuanLyThucVien.exe.config
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\bin\Debug\QuanLyThucVien.exe
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\bin\Debug\QuanLyThucVien.pdb
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.csprojResolveAssemblyReference.cache
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.Form1.resources
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.Properties.Resources.resources
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.csproj.GenerateResource.Cache
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.exe
-D:\University of Science\Developing Application DB 1\Resources\SourceCode\MoHinh3Lop\QuanLyThucVien\obj\Debug\QuanLyThucVien.pdb

@@ -1,9 +1,0 @@
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\bin\Debug\demo.exe.config
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\bin\Debug\demo.exe
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\bin\Debug\demo.pdb
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.csprojResolveAssemblyReference.cache
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.Form1.resources
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.Properties.Resources.resources
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.csproj.GenerateResource.Cache
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.exe
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\PTUDCSDL1\demo\obj\Debug\demo.pdb

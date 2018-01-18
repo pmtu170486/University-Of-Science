@@ -1,9 +1,0 @@
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\wsEmployees.dll.config
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\wsEmployees.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\wsEmployees.pdb
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\EntityFramework.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\EntityFramework.SqlServer.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\EntityFramework.xml
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\bin\Debug\EntityFramework.SqlServer.xml
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\obj\Debug\wsEmployees.dll
-D:\University of Science\Developing Application DB 1\ThucHanh\SourceCode\NETServices\wsEmployees\obj\Debug\wsEmployees.pdb
