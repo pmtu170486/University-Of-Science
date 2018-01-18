@@ -8,8 +8,12 @@ rem => create new folder with class name
 cd classes
 mkdir %name%
 rem => copy folder docs, topic into new class
-cd ..
-robocopy   docs classes/%name%/docs /E /CREATE
-robocopy   topic classes/%name%/topic /E /CREATE
+cd %name%
+mkdir docs
+mkdir theory_exercise
+mkdir lab_exercise
+cd docs
+mkdir theory
+mkdir lab
 echo %info%:FINISH
 pause
